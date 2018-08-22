@@ -1,9 +1,11 @@
+/* Display "Hello Holberton" 32 times (instead of 10) */
+
 int main()
 {
   int i;
-  for (i = 0; i < 10; i++)
+  for (i = 0; i < 32; i++)
   {
-    printf("Holberton\n");
+    printf("Hello Holberton\n");
   }
   return 0;
 }
